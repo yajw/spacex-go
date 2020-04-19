@@ -34,6 +34,7 @@ dependencies:
   package_info: ^0.4.0+16
   provider: ^4.1.0-dev
   quick_actions: ^0.4.0+2
+  responsive_builder: ^0.1.5
   share: ^0.6.3+6
   shared_preferences: ^0.5.6+3
   system_setting: ^0.1.3
