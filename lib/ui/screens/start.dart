@@ -204,21 +204,15 @@ class _StartScreenState extends State<StartScreen> {
             Row(
               children: <Widget>[
                 Expanded(
+                  flex: 3,
                   child: Image.network(
                     'https://live.staticflickr.com/65535/49461673552_434eb0faad_h.jpg',
                     fit: BoxFit.cover,
+                    height: double.infinity,
                   ),
                 ),
                 Expanded(
-                  child: SizedBox(),
                   flex: 2,
-                ),
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                Expanded(child: SizedBox()),
-                Expanded(
                   child: IndexedStack(index: _currentIndex, children: [
                     HomeTab(),
                     VehiclesTab(),
