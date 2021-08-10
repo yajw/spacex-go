@@ -48,7 +48,7 @@ dev_dependencies:
   mockito: ^5.0.10
 
 dependency_overrides:
-   args: 2.1.1
+   args: 2.2.0
 
 flutter_icons:
   image_path: assets/icons/icon_app.png
